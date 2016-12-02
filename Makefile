@@ -291,3 +291,5 @@ $(ENVFILE).new:
 # Remember to keep these in sync with the DEPS file.
 dependencies:
 	git clone https://chromium.googlesource.com/external/gyp build/gyp
+	cd build/gyp
+	git reset --hard f7bc250ccc4d619a1cf238db87e5979f89ff36d7
